@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	background-color: #39393A;
+	color: #e6e;
+
+	height: 100px;
+
+	padding: 10px;
+
+}
+
+body {
+	background-color: #EEE5E9;
+}
+
+input {
+	background-color: #EEE5E9;
+	color: #39393A;
+	border: none;
+
+	height: 70px;
+	width: 80%;
+
+	padding: 15px;
+
+	font-size: 150%;
+}
+
+button {
+	background-color: #DB5461;
+	border: none;
+	color: #EEE5E9;
+
+	height: 70px;
+	width: 18%;
+
+	padding: 5px;
+
+	cursor: pointer;
+	transition: 0.2s;
+
+	font-size: 150%;
+	font-weight: 500;
+}
+
+button:hover {
+	background-color: #EEE5E9;
+	color: #39393A;
+}
+
+hr {
+	width: 75%;
+	margin: 5px auto;
+}
+
+
+#currentTask, #completeTask {
+	 width: 100%;
+	 
+	 padding: 25px;
+	 background-color: #EEE5E9;
+}
+
+#currentTask #ulCurrent {
+	list-style: none;
+}
+
+#completeTask #ulComplete {
+	list-style: none;
+}
+
+li {
+
+}
+
+#task {
+	border: 1px solid #39393a;
+	padding: 25px;
+	margin: 10px 0px;
+}
+
+#taskGrid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+#buttonsTaskPane {
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+i {
+	display: inline-block;
+	cursor: pointer;
+	padding: 5px;
+	transition: 0.2s;
+}
+
+i:hover {
+	color: #DB5461;
+}

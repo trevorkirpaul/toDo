@@ -1,0 +1,3 @@
+I left the "HELP-US-OUT" text file that originally comes with font awesome. I'm using this library for free whiles I learn web design but I still think it would be lame if I took that text file out.
+
+~~~EASTER EGG?!?!?!~~~~
