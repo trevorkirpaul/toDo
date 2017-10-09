@@ -2,54 +2,77 @@
 <html>
 <head>
 	<title>To Do</title>
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 
 <header>
+
 	<input type=input" id="inpTaskName">
+
 	<button id="btnTaskEnter">Add Task</button>
+
 </header>
 
 <div id="currentTask">
+
 	<ul id="ulCurrent">
 
-		<li>
-
-			<!-- BEGINNING TEMPLATE/TEST TASK PANE -->
-			
-<!-- 			<div id="task">
-				
-				<section id="taskGrid">
-
-					<div>
-						<h2>Task Name</h2>
-						<p>Task Description and details.</p>
-					</div>
-
-					<div id="buttonsTaskPane">
-						<i class="fa fa-check fa-2x"></i>
-						<i class="fa fa-pencil fa-2x"></i>
-						<i class="fa fa-ban fa-2x"></i>
-					</div>
-
-				</section>
-
-			</div> -->
-
-			<!-- END TEMPLATE/TEST TASK PANE -->
-
-		</li>
+		<!-- This is where new task are added -->
 
 	</ul>
+
 </div>
+
 <hr>
+
 <div id="completeTask">
+
 	<ul id="ulComplete">
+
+		<!-- This is where completed tasks are moved to -->
 		
 	</ul>
+
+</div>
+
+
+<!-- Modal -->
+
+
+
+<div class="modal" id="editModal">
+
+	<div class="modalContent">		
+
+		<div class="close" >
+			<i id="btnClose" class="fa fa-times-circle" aria-hidden="true"></i>
+		</div>
+
+		<div id="divForm">
+			
+				<h3 class="inputLabel">Task Name:</i></h3> 
+				<input type="input" id="inpTaskNameEdit" class="inputEdit">
+
+				<h3 class="inputLabel">Task Decription:</h3>
+				<input type="input" id="inputTaskDesEdit" class="inputEdit">
+			
+		</div>
+
+		<div id="divFormButtons">
+			<button class="btnEdit" id="btnEditConfirm">Confirm</button>
+			<button class="btnEdit" id="btnEditCancel">Cancel</button>
+
+
+		</div>
+
+
+		
+
+	</div>
+
 </div>
 
 
@@ -70,8 +93,7 @@
 
 
 
-
-
+<!-- end Modal -->
 
 
 <script type="text/javascript" src="script.js"></script>
